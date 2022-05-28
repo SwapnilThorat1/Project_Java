@@ -11,7 +11,7 @@ class Server
         System.out.println("Server application is running..");
         String s1,s2;
 
-        ServerSocket ss = new ServerSocket(1100);       //1100   port no int        2048 pudacha geyacha use os  //creat obj
+        ServerSocket ss = new ServerSocket(1100);       
         Socket s  = ss.accept();    
 
         System.out.println("Connection succesfull");
